@@ -55,7 +55,7 @@ def nlp_to_sql(nlp_query, table_name="Employee"):
     ]  
       
     response = client.chat.completions.create(  
-        model="gpt-4",  
+        model="gpt-4-turbo",  
         messages=prompt_messages,  
         temperature=0.7,  
         max_tokens=4096  

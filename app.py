@@ -6,14 +6,14 @@ import json
 app = Flask(__name__)  
   
 # Directly defined credentials (Consider using environment variables for production)  
-AZURE_OPENAI_ENDPOINT = "https://openai-mj-photon.openai.azure.com/"  
-AZURE_OPENAI_API_KEY = "5b0a39cafb1144889a0d93312d1b2a92"  
+AZURE_OPENAI_ENDPOINT = "https://azureopenai-photon.openai.azure.com/"  
+AZURE_OPENAI_API_KEY = "82767c3fcf7b4bd4b916b98928a22f2b"  
 AZURE_OPENAI_API_VERSION = "2024-02-15-preview"  
   
-SQL_SERVER = "photontesthrms.database.windows.net"  
-SQL_DB = "photontestdatabase"  
-SQL_USERNAME = "admini"  
-SQL_PASSWORD = "Mital@123"  
+SQL_SERVER = "photonhrmsserver.database.windows.net"  
+SQL_DB = "photonhrmsdatabase"  
+SQL_USERNAME = "Admini"  
+SQL_PASSWORD = "Photon@5215"
   
 # Initialize Azure OpenAI client with your credentials  
 client = AzureOpenAI(  
